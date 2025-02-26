@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-
+﻿
 namespace rpc.sdk;
 
 public class RpcClient(Greeter.GreeterClient greeterClient, FileService.FileServiceClient fileServiceClient)
